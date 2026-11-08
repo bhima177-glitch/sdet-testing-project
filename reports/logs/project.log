@@ -1,0 +1,57 @@
+2026-11-06 20:05:05,006 - INFO - Opening SauceDemo website
+2026-11-06 20:05:05,820 - INFO - Entering login credentials
+2026-11-06 20:05:06,063 - INFO - Login successful
+2026-11-06 20:05:06,065 - INFO - Starting test: tests/test_cart.py::test_add_product_and_verify_cart_badge[chromium]
+2026-11-06 20:05:06,179 - INFO - TEST PASSED: tests/test_cart.py::test_add_product_and_verify_cart_badge[chromium]
+2026-11-06 20:05:06,202 - INFO - Finished test: tests/test_cart.py::test_add_product_and_verify_cart_badge[chromium]
+2026-11-06 20:05:09,017 - INFO - Opening SauceDemo website
+2026-11-06 20:05:09,784 - INFO - Entering login credentials
+2026-11-06 20:05:09,983 - INFO - Login successful
+2026-11-06 20:05:09,984 - INFO - Starting test: tests/test_cart.py::test_product_is_visible_in_cart[chromium]
+2026-11-06 20:05:10,167 - INFO - TEST PASSED: tests/test_cart.py::test_product_is_visible_in_cart[chromium]
+2026-11-06 20:05:10,181 - INFO - Finished test: tests/test_cart.py::test_product_is_visible_in_cart[chromium]
+2026-11-06 20:05:12,912 - INFO - Opening SauceDemo website
+2026-11-06 20:05:14,926 - INFO - Entering login credentials
+2026-11-06 20:05:15,132 - INFO - Login successful
+2026-11-06 20:05:15,133 - INFO - Starting test: tests/test_cart.py::test_remove_product_from_cart[chromium]
+2026-11-06 20:05:15,431 - INFO - TEST PASSED: tests/test_cart.py::test_remove_product_from_cart[chromium]
+2026-11-06 20:05:15,447 - INFO - Finished test: tests/test_cart.py::test_remove_product_from_cart[chromium]
+2026-11-06 20:05:18,178 - INFO - Opening SauceDemo website
+2026-11-06 20:05:20,158 - INFO - Entering login credentials
+2026-11-06 20:05:20,356 - INFO - Login successful
+2026-11-06 20:05:20,357 - INFO - Starting test: tests/test_checkout.py::test_complete_checkout[chromium]
+2026-11-06 20:05:20,825 - INFO - TEST PASSED: tests/test_checkout.py::test_complete_checkout[chromium]
+2026-11-06 20:05:20,840 - INFO - Finished test: tests/test_checkout.py::test_complete_checkout[chromium]
+2026-11-06 20:05:23,605 - INFO - Starting test: tests/test_login.py::test_login_with_valid_credentials[chromium]
+2026-11-06 20:05:24,738 - INFO - TEST PASSED: tests/test_login.py::test_login_with_valid_credentials[chromium]
+2026-11-06 20:05:24,754 - INFO - Finished test: tests/test_login.py::test_login_with_valid_credentials[chromium]
+2026-11-06 20:05:27,533 - INFO - Starting test: tests/test_login.py::test_login_with_invalid_password[chromium]
+2026-11-06 20:05:28,488 - INFO - TEST PASSED: tests/test_login.py::test_login_with_invalid_password[chromium]
+2026-11-06 20:05:28,504 - INFO - Finished test: tests/test_login.py::test_login_with_invalid_password[chromium]
+2026-11-06 20:05:31,243 - INFO - Starting test: tests/test_login.py::test_login_with_empty_credentials[chromium]
+2026-11-06 20:05:33,082 - INFO - TEST PASSED: tests/test_login.py::test_login_with_empty_credentials[chromium]
+2026-11-06 20:05:33,099 - INFO - Finished test: tests/test_login.py::test_login_with_empty_credentials[chromium]
+2026-11-06 20:05:35,809 - INFO - Opening SauceDemo website
+2026-11-06 20:05:36,615 - INFO - Entering login credentials
+2026-11-06 20:05:36,822 - INFO - Login successful
+2026-11-06 20:05:36,823 - INFO - Starting test: tests/test_sorting.py::test_sort_products_name_az[chromium]
+2026-11-06 20:05:36,934 - INFO - TEST PASSED: tests/test_sorting.py::test_sort_products_name_az[chromium]
+2026-11-06 20:05:36,951 - INFO - Finished test: tests/test_sorting.py::test_sort_products_name_az[chromium]
+2026-11-06 20:05:39,699 - INFO - Opening SauceDemo website
+2026-11-06 20:05:40,470 - INFO - Entering login credentials
+2026-11-06 20:05:40,679 - INFO - Login successful
+2026-11-06 20:05:40,680 - INFO - Starting test: tests/test_sorting.py::test_sort_products_name_za[chromium]
+2026-11-06 20:05:40,818 - INFO - TEST PASSED: tests/test_sorting.py::test_sort_products_name_za[chromium]
+2026-11-06 20:05:40,833 - INFO - Finished test: tests/test_sorting.py::test_sort_products_name_za[chromium]
+2026-11-06 20:05:43,583 - INFO - Opening SauceDemo website
+2026-11-06 20:05:44,229 - INFO - Entering login credentials
+2026-11-06 20:05:44,414 - INFO - Login successful
+2026-11-06 20:05:44,415 - INFO - Starting test: tests/test_sorting.py::test_sort_products_price_low_high[chromium]
+2026-11-06 20:05:44,545 - INFO - TEST PASSED: tests/test_sorting.py::test_sort_products_price_low_high[chromium]
+2026-11-06 20:05:44,560 - INFO - Finished test: tests/test_sorting.py::test_sort_products_price_low_high[chromium]
+2026-11-06 20:05:47,293 - INFO - Opening SauceDemo website
+2026-11-06 20:05:47,999 - INFO - Entering login credentials
+2026-11-06 20:05:48,183 - INFO - Login successful
+2026-11-06 20:05:48,184 - INFO - Starting test: tests/test_sorting.py::test_sort_products_price_high_low[chromium]
+2026-11-06 20:05:48,325 - INFO - TEST PASSED: tests/test_sorting.py::test_sort_products_price_high_low[chromium]
+2026-11-06 20:05:48,491 - INFO - Finished test: tests/test_sorting.py::test_sort_products_price_high_low[chromium]
