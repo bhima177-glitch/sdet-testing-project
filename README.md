@@ -1,111 +1,145 @@
 # Bhima SDET Testing Project 2
 
-A Python + Playwright + Pytest UI automation portfolio project for the public SauceDemo practice website.
+## Project Overview
+This project is an automated software testing framework developed using Python, Playwright and Pytest. It automates functional testing of the SauceDemo e-commerce website.
 
-## Features
-- Page Object Model (POM)
-- Positive and negative login tests
-- Shopping cart add, view and remove tests
-- Product sorting tests (A–Z, Z–A, price low–high, price high–low)
-- Checkout flow test
-- Automatic screenshot capture when a test fails
-- Pytest HTML report support
+The project follows the Page Object Model (POM) design pattern to make test scripts reusable, organized and maintainable.
 
-> This is an educational portfolio project and is not affiliated with Sauce Labs.
-> Tests use the public demo site: https://www.saucedemo.com
+## Technologies Used
+- Python
+- Playwright
+- Pytest
+- HTML Reporting (pytest-html)
+- Git and GitHub
+- Visual Studio Code
 
-## Requirements
-- Python 3.10+
-- VS Code (recommended)
-- Internet access to open SauceDemo and install dependencies
+## Project Features
+- Automated login testing
+- Positive and negative login validation
+- Add products to shopping cart
+- Remove products from shopping cart
+- Product sorting validation
+- Checkout process automation
+- Automatic screenshots when tests fail
+- Execution logging
+- HTML test reports
+- Page Object Model architecture
 
-## Windows PowerShell setup
+## Test Scenarios
 
-```powershell
-# Open this project folder in VS Code, then run:
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-playwright install chromium
-```
+| Test Module | Test Cases |
+|---|---:|
+| Login Testing | 3 |
+| Cart Testing | 3 |
+| Product Sorting | 4 |
+| Checkout Testing | 1 |
+| **Total** | **11** |
 
-If PowerShell blocks activation, run this once for the current terminal:
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.venv\Scripts\Activate.ps1
-```
+## Test Execution Results
 
-## Run tests
+Latest verified test run:
 
-```powershell
-pytest
-```
+- Total Tests: 11
+- Passed: 11
+- Failed: 0
 
-Run with a visible browser:
-```powershell
-pytest --headed
-```
-
-Run and generate an HTML report:
-```powershell
-pytest --html=reports/report.html --self-contained-html
-```
-
-Run a specific test file:
-```powershell
-pytest tests/test_sorting.py
-```
-
-## Test scenarios
-
-| ID | Scenario |
-|---|---|
-| TC-01 | Login with valid credentials |
-| TC-02 | Login with invalid password |
-| TC-03 | Login with empty credentials |
-| TC-04 | Add backpack and verify cart badge |
-| TC-05 | Verify product in cart |
-| TC-06 | Remove product from cart |
-| TC-07 | Sort product names A–Z |
-| TC-08 | Sort product names Z–A |
-| TC-09 | Sort prices low–high |
-| TC-10 | Sort prices high–low |
-| TC-11 | Complete checkout successfully |
-
-## Demo credentials
-- Username: `standard_user`
-- Password: `secret_sauce`
-
-## Failure screenshots
-When a test fails, the pytest hook attempts to save a screenshot under:
-`reports/screenshots/`
-
-## Project structure
+## Project Structure
 
 ```text
 bhimasdettestingproject2/
 ├── pages/
-│   ├── __init__.py
 │   ├── login_page.py
 │   ├── inventory_page.py
 │   ├── cart_page.py
 │   └── checkout_page.py
 ├── tests/
-│   ├── __init__.py
 │   ├── test_login.py
 │   ├── test_cart.py
 │   ├── test_sorting.py
 │   └── test_checkout.py
 ├── reports/
-│   └── screenshots/
+│   ├── logs/
+│   ├── screenshots/
+│   └── report.html
 ├── conftest.py
 ├── pytest.ini
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
-## Notes
-- SauceDemo is a third-party demo site. Its availability, content, or selectors can change.
-- A clean local setup does not guarantee a live website test run will always pass; network issues or site changes can affect results.
-- If a test fails, inspect its error and screenshot before changing selectors.
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/bhima177-glitch/sdet-testing-project.git
+```
+
+Open the project folder:
+
+```bash
+cd sdet-testing-project
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate it on Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Install Playwright Chromium:
+
+```bash
+playwright install chromium
+```
+
+## Run Automated Tests
+
+```bash
+pytest
+```
+
+## Generate HTML Test Report
+
+```bash
+pytest --html=reports/report.html --self-contained-html
+```
+
+Open `reports/report.html` in a browser to view the results.
+
+## Failure Screenshots and Logs
+
+- Failure screenshots are saved in `reports/screenshots/`.
+- Execution logs are saved in `reports/logs/project.log`.
+
+## Application Under Test
+
+https://www.saucedemo.com
+
+Demo credentials:
+
+- Username: standard_user
+- Password: secret_sauce
+
+## Author
+
+**Bhima Sankar**
+
+GitHub: https://github.com/bhima177-glitch
+
+## Disclaimer
+
+This is an educational automation testing project using the public SauceDemo practice website. It is not affiliated with Sauce Labs.
